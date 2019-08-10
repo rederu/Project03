@@ -28,3 +28,9 @@ It is  planned change the login system and the inventory view design. Also, to a
 ## Live Demo (Heroku)
 
 https://harutwoinventory.herokuapp.com/
+
+Login info for Live Demo:
+
+`email: user@user.com`
+
+`password: user123`
