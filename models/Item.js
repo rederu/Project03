@@ -10,7 +10,7 @@ const itemSchema = mongoose.Schema({
         type: String, 
         required: true
     },  
-    amount: {
+    stock: {
         type: String, 
         required: true
     }, 
@@ -19,7 +19,7 @@ const itemSchema = mongoose.Schema({
         required: true
     },
     price: {
-        type: Number,
+        type: String,
         require: true
     }
 });

@@ -47,7 +47,8 @@ router.post("/items", (req, res, next) => {
      name :req.body["name"],
      image: req.body["image"],
      description: req.body["description"],
-     amount: req.body["amount"]
+     price: req.body["price"],
+     stock: req.body["stock"]
    });
    
    newitem.save((err) => {
@@ -71,7 +72,8 @@ router.put("/item/:id", (req, res, next) => {
   let updatedItem = Item.findByIdAndUpdate(req.params.id, {$set : {
     name: req.body.name,
     description: req.body.description,
-    amount: req.body.amount,
+    price: req.body.price,
+    stock: req.body.stock,
     image: req.body.image
   }}, (err, item) => {
     if(err){
