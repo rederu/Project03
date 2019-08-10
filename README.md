@@ -1,29 +1,30 @@
-# Create React Express App
+# HaruTwo Inventory
 
-## About This Boilerplate
+<img src="https://i.imgur.com/bvnzAcY.png">
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
 
-## Starting the app locally
+**HaruTwo Inventory** is an online inventory system for  **HaruTwo Shop**, a small online import business located in Chile.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+This online inventory system is planned to be used remotely by the  store owners due location limitations in order to keep a better record of the store's inventory.
 
-```
-npm install
-```
 
-This should install node modules within the server and the client folder.
 
-After both installations complete, run the following command in your terminal:
+It counts with a Login and Register system that, due demo purposes, are located on the navigation bar. It is thought that, since it is a private inventory, it only allows remote access to the  inventory administrators which, also, are the only ones in charge to register new users if required. 
 
-```
-npm start
-```
+Currently, HaruTwo Inventory allows to login users, register users , display inventory elements, edit and delete inventory items as well as display a preview for the latter actions.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+It is  planned change the login system and the inventory view design. Also, to add a way to scrap tracking information and a client's database, as well as a change log system and a search bar in the near future.
 
-## Deployment (Heroku)
+## Technologies
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+* HTML5
+* CSS3
+* Bootstrap
+* Javascript
+* MERN (Mongo, Express, React, Node)
+* Jwt
+
+## Live Demo (Heroku)
+
+https://harutwoinventory.herokuapp.com/
